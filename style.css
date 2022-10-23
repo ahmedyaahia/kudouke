@@ -1,0 +1,416 @@
+*{
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+        overflow-x: hidden;
+        width: 100%;
+        height: 100%;
+}
+nav{
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    z-index: +1;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.leftside{
+    width: 50%;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.logo img{
+    
+    width: 130px;
+    height: 80px;
+    
+}
+.list{
+    width: 90%;
+    height: 100%;
+    
+    display: flex;
+}
+.list ul{
+    width: 100%;
+    height: 100%;
+    list-style-type: none;
+    display: flex ;
+    justify-content: space-between;
+    align-items: center ;
+    
+
+
+}
+.list ul li{
+
+    width: 19%;
+    margin-left: 10px;
+
+    
+
+}
+
+.list ul li a{
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: gray;
+}
+.list ul li a:hover{
+    text-decoration:underline purple ;
+}
+
+
+
+.rightside{
+    width: 20%;
+}
+.rightside button{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(179, 179, 179, 0.463);
+    width: 40%;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.rightside button:hover{
+    background-color: rgb(249, 249, 249);
+}
+/*--------------*/
+#back13{
+    height: 750px;
+    position: absolute;
+    z-index: -5;
+}
+/*--------------*/
+/*start*/
+.start{
+    width: 100%;
+    height: 800px;    
+    position: relative;
+    padding-top: 120px ;
+
+}
+.startparent{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.paragrapgh{
+    width: 55%;
+    padding-top: 250px;
+}
+#p2{
+    width: 100%;
+    padding-left: 100px;
+    
+}
+.paragrapgh  h1{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(110, 109, 109);
+    width: 100%;
+    font-weight: 300;
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+.paragrapgh strong{
+    font-weight: 300;
+    font-size: 70px;
+    color: rgb(155, 60, 155);
+
+}
+.paragrapgh small{
+    font-family: 'Roboto', sans-serif;
+    color: rgba(96, 93, 93, 0.523);
+    width: 100%;
+    font-size: 33px;
+    margin-bottom: 10px;
+}
+.ship{
+    width:45%;
+    position: relative; 
+    display: flex;
+    justify-content: center;
+}
+#back{
+    width: 100%;
+    position: absolute;
+    z-index: -3;
+    left: 50px;
+    bottom: 0;
+}
+#front{
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    z-index: -2;
+    bottom: 200px;
+}
+#front1{
+    width: 400px;
+    bottom: 90px;
+    position: absolute;
+    z-index: -2;
+}
+#front2{
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    z-index: 1;
+    bottom: -70px;
+    left: -250px;
+}
+/*middle*/
+.middle{
+    width: 100%;
+    height: 700px;
+    position: relative;
+    
+
+}
+#ndsec{
+    width: 60%;
+    position: absolute;
+    top: 50px;
+    left: 450px;
+    height: 600px;
+    z-index: -5;
+    
+}
+
+.card{
+    width: 30%;
+    height: 300px;
+    text-align: center;
+    position: relative;
+
+
+}
+
+.card img{
+    width: 40%;
+}
+.card h2{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(110, 109, 109);
+
+}
+.card p{
+    font-family: 'Roboto', sans-serif;
+    color: rgba(96, 93, 93, 0.523);
+    font-weight: 600;
+}
+#c1{
+    position: relative;
+    top: 145px;
+    left: 190px;
+}
+#c2{
+    position: relative;
+    left: 650px;
+}
+#c3{
+    position: relative;
+    top: 5%;
+left: 960px;
+}
+.kudzoke{
+    width: 30%;
+    height: 300px;
+    position: relative;
+    top: -300px;
+    left: 160px;
+
+
+}
+#content{
+    width: 80%;
+    position: relative;
+
+}
+#content img{
+    position: absolute;
+}
+#content #h{
+    top: 100px;
+    left: 80px;
+    font-size: 30px;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255 255 255);
+}
+/*///// gallaty */
+.imgs{
+    width: 100%;
+    height: 500px;
+    margin-top: 200px;
+    display: flex;
+    text-align: center;
+    
+    flex-direction: column;
+}
+.gal{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.gal #im1{
+width: 15%; 
+height: 50%; 
+
+
+
+}
+.gal #im2{
+    width: 30%;
+    height: 100%;
+
+}
+.round{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(110, 109, 109);
+
+
+}
+.imgs .p{
+    font-family: 'Roboto', sans-serif;
+    color: rgba(96, 93, 93, 0.523);
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+
+/* foooooooooooter */
+footer{
+    width: 100%;
+    height: 300px;
+    
+
+}
+.contact{
+
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.apps{
+    width: 50%;
+    height: 300px;
+    position: relative;
+    bottom: -350px;
+    margin-left: 100px;
+    display: flex;
+    z-index: 2;
+    top: 330px;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.aps{
+    display: flex;    
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+#apple{
+    width: 20%;
+    margin: 3px;
+    height: 50px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+#apple img {
+    width: 15%;
+    height: 80%;
+}
+#appleh{
+    width: 70%;
+}
+
+
+
+
+.icons{
+    width: 100%;
+    margin: 3px;
+
+}
+.icons img{
+    width: 3%;
+    height: 20px;
+    margin: 3px;
+
+}
+.listfooter{
+    width: 100%;
+
+}
+.listfooter ul{
+    list-style-type: none;
+    display: flex;
+    padding: 0px;
+    margin-top: 15px;
+    margin-left: 3px ;
+}
+.listfooter ul li {
+    width: 15%;
+}
+.listfooter ul li a{
+    text-decoration: none;
+    color: white;
+    
+    font-family: 'Roboto', sans-serif;
+
+    
+}
+
+
+#bckftr{
+    height: 629px;
+    position: absolute;
+    width: 110%;
+    left: -40px;
+    z-index: -4;
+    overflow: hidden;
+
+}
+#bckftr img{
+    position: absolute;
+    top: 0;
+}
+.rightimg{
+    width: 40%;
+    right: 0;
+    position: relative;
+    top: 215px;
+    right: 10%;
+    bottom: 0;
+
+}
